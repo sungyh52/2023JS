@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  color: rgb(22, 22, 22);
+}
+
+.bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  font-style: italic;
+  font-family: georgia;
+  color: blanchedalmond;
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .time {
+  margin-top: 900px;
+  padding: 12px 24px;
+  font-size: 100px;
+}
+main .quotes {
+  position: relative;
+  font-size: 40px;
+}
+main .quotes .quotesAddBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+main .quotes .deleteButton {
+  display: none;
+  position: absolute;
+  top: 80%;
+  right: 80%;
+  transform: translate(50%, -50%);
+}
+main .quotes:hover .quotesAddBtn {
+  display: inline-block;
+}
+main .quotes:hover .deleteButton {
+  display: inline-block;
+}
+main .newQuotes {
+  display: none;
+}
+main .nft {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+main .nft img {
+  width: 250px;
+  height: 250px;
+}
+main .nft .nftHover {
+  position: absolute;
+  display: none;
+  width: 250px;
+  height: 250px;
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 22, 22, 0.5);
+}
+main .nft a {
+  color: white;
+}
+main .nft button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 9999px;
+  width: 24px;
+  height: 24px;
+  margin: -8px;
+}
+main .nft:hover .nftHover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .nftView {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 24px;
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
